@@ -57,3 +57,27 @@ console.log(texto.indexOf("ão"))
 
 let info ="Processamento de ponta";
 console.log(info.slice(16,25))
+
+//OPERADORES ARITIMÉTICOS
+
+const num1=10;
+const num2=20;
+
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+
+//OPERADORES LÓGICOS
+
+const num3=10;
+const num4=20;
+
+console.log(num3 < num4);
+console.log(num3 > num4 && num4 < num3);
+console.log(num3 > num4 || num4 < num3);
+
+//OPERADORES DE COMPARAÇÃO
+
+console.log(num3 == num4);
+console.log(num3 === num4);
