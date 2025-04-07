@@ -123,9 +123,14 @@ switch (time){
                 console.log("nenhuma das opções")
 }
 
-// ternario
+// ternario 
 
 let valor = 100;
 
 let resultado = valor == 100 ? "Certo" :"Errado"
 console.log(resultado)
+
+//ternario encadeado
+let produto ="notebok"
+const preco= produto ="notebook" ? desconto ? 100 :200 : produto
+console.log(preco)
