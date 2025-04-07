@@ -134,3 +134,12 @@ console.log(resultado)
 let produto ="notebok"
 const preco= produto ="notebook" ? desconto ? 100 :200 : produto
 console.log(preco)
+
+//ESTRUTURA DE REPETIÇÃO
+
+//FOR
+
+for(let i=0; i<=10;i++){
+    console.log("O valor de I é :" ,i)
+
+}
