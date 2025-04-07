@@ -81,3 +81,47 @@ console.log(num3 > num4 || num4 < num3);
 
 console.log(num3 == num4);
 console.log(num3 === num4);
+
+//ESTRUTURA CONDICIONAL
+
+if(true){
+    console.log("é verdadeiro")
+}
+
+//if/else
+let (usuario="Teste"){
+    console.log("Usuario Correto")
+}
+
+//if encadeado / aninhado
+
+let idade =15
+
+if(idade < 15){
+    console.log("Menor de idade")
+}else if(idade >15 && idade <18){
+    console.log("não é maior mas pode entrar")
+}else{
+    console.log("Pode entrar é maior")
+}
+
+//switch
+
+let time = "São Paulo"
+
+switch (time){
+    case "São Paulo":
+        console.log("Melhor time")
+        break;
+        case "Corinthans":
+            console.log("Não é o melhor time")
+            break;
+            case "Palmeiras":
+            console.log("Não tem mundial")
+            break;
+            default:
+                console.log("nenhuma das opções")
+}
+
+// ternario
+
